@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    // ... existing options ...
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -14,6 +13,7 @@
     "jsx": "preserve",
     "incremental": true,
     "target": "ES2017",
+    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"
@@ -29,7 +29,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/**/*.css",
-    "src/css.d.ts"
+    "src/app/css.d.ts"
   ],
   "exclude": ["node_modules"]
 }
